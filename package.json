@@ -1,0 +1,28 @@
+{
+  "name": "cosmos",
+  "description": "A distributed event driven and RPC based application framework for Node.JS",
+  "version": "0.0.1",
+  "homepage": "http://aikar.co/cosmos",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aikar/cosmos"
+  },
+  "author": "Aikar <aikar@aikar.co> (http://aikar.co)",
+  "main": "lib/cosmos.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "vows": ""
+  },
+  "bugs": {
+    "mail": "aikar@aikar.co",
+    "web": "https://github.com/aikar/cosmos/issues"
+  },
+  "scripts": {
+    "test": "test/runTest.js"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
