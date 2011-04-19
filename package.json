@@ -8,7 +8,7 @@
     "url": "git@github.com:aikar/cosmos"
   },
   "author": "Aikar <aikar@aikar.co>",
-  "main": "lib/cosmos.js",
+  "main": "lib/bootstrap.js",
   "directories": {
     "lib": "lib"
   },
