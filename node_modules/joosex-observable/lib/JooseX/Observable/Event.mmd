@@ -1,0 +1,127 @@
+Name
+====
+
+JooseX.Observable.Event - An event in Observable pattern
+
+
+SYNOPSIS
+========
+
+        Class('My.Class', {
+            does    : JooseX.Observable
+        })
+        
+        
+        var instance = new My.Class()
+        
+        var handler     = function (event, param1, param2) {
+            // event.source == instance
+            // param1       == 'foo'
+            // param2       == 'bar'
+        }
+        
+        
+        instance.on('event', handler, scope, { single : true, delay : 100 }) 
+        
+        instance.fireEvent('event', 'foo', 'bar')
+        
+
+ATTRIBUTES
+==========
+
+### name
+
+> `String name`
+
+> Full name of the event.
+
+
+### args
+
+> `Array args`
+
+> Array with the arguments for this event.
+
+
+### source
+
+> `Object source`
+
+> The instance, which emitted this event
+
+
+### current
+
+> `Object current`
+
+> The instance, which is currently propagating the event (during bubbling)
+
+
+### splat
+
+> `String splat`
+
+> The value for the `*` wildcard 
+
+> `Array[String] splat`
+
+> The values for the `**` wildcard 
+
+ 
+
+
+METHODS
+=======
+
+### stopPropagation
+
+> `stopPropagation()`
+
+> Prevents further bubbling for this event
+
+
+
+GETTING HELP
+============
+
+This extension is supported via github issues tracker: <http://github.com/SamuraiJack/JooseX-Observable/issues>
+
+For general Joose questions you can also visit [#joose](http://webchat.freenode.net/?randomnick=1&channels=joose&prompt=1) 
+on irc.freenode.org or mailing list at: <http://groups.google.com/group/joose-js>
+ 
+
+
+SEE ALSO
+========
+
+Web page of this module: <http://github.com/SamuraiJack/JooseX-Observable/>
+
+General documentation for Joose: <http://joose.github.com/Joose/>
+
+
+BUGS
+====
+
+All complex software has bugs lurking in it, and this module is no exception.
+
+Please report any bugs through the web interface at <http://github.com/SamuraiJack/JooseX-Observable/issues>
+
+
+
+AUTHORS
+=======
+
+Nickolay Platonov <nplatonov@cpan.org>
+
+
+
+
+
+COPYRIGHT AND LICENSE
+=====================
+
+This software is Copyright (c) 2010 by Nickolay Platonov.
+
+This is free software, licensed under:
+
+  The GNU Lesser General Public License, Version 3, June 2007

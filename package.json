@@ -7,10 +7,12 @@
     "type": "git",
     "url": "git@github.com:aikar/cosmos"
   },
-  "author": "Aikar <aikar@aikar.co> (http://aikar.co)",
+  "author": "Aikar <aikar@aikar.co>",
   "main": "lib/cosmos.js",
   "directories": {
     "lib": "lib"
+  },
+  "dependencies" : {
   },
   "devDependencies": {
     "vows": ""
@@ -20,9 +22,11 @@
     "web": "https://github.com/aikar/cosmos/issues"
   },
   "scripts": {
-    "test": "test/runTest.js"
+    "preinstall": "make",
+    "preuninstall": "make clean",
+    "test": "./runTest.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=0.4.0"
   }
 }
