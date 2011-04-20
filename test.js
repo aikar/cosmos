@@ -1,4 +1,3 @@
 require('cosmos');
-console.log(Cosmos.Foo);
-var foo = new Cosmos.Foo();
+var foo = new Cosmos.Foo(3,2,1);
 foo.bar();
