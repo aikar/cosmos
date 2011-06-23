@@ -22,8 +22,8 @@
     "web": "https://github.com/aikar/cosmos/issues"
   },
   "scripts": {
-    "preinstall": "make",
-    "preuninstall": "make clean",
+    //"preinstall": "make",
+    //"preuninstall": "make clean",
     "test": "./runTest.js"
   },
   "engines": {
