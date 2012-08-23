@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/aikar/cosmos.png)](http://travis-ci.org/aikar/cosmos)
 # Cosmos
 ## About
  Cosmos is a distributed Event Driven and RPC style application development framework for Node.JS.
