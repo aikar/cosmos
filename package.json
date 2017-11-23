@@ -1,0 +1,18 @@
+{
+  "name": "cosmos",
+  "version": "0.1.2",
+  "description": "Distributed Event Driven application development framework",
+  "main": "cosmos.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "event",
+    "driven",
+    "application",
+    "framework",
+    "kafka"
+  ],
+  "author": "iContact <dennis@icontact.com>",
+  "license": "SEE LICENSE IN README.md"
+}
